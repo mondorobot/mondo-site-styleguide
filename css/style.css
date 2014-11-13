@@ -1185,39 +1185,50 @@ h6 {
 * Type Scale
 */
 
-.ui-fontSize-caption {
+.ui-fontSize-1 {
   font-size: 0.833em;
   line-height: 160%;
 }
 
-.ui-fontSize-1 {
+.ui-fontSize-2 {
+  font-size: 1em;
+  line-height: 160%;
+}
+
+.ui-fontSize-3 {
   font-size: 1.25em;
   line-height: 160%;
 }
 
-.ui-fontSize-2 {
+.ui-fontSize-4 {
   font-size: 1.778em;
   text-transform: uppercase;
 }
 
-.ui-fontSize-3 {
+.ui-fontSize-5 {
   font-size: 2.667em;
   text-transform: uppercase;
 }
 
-.ui-fontSize-4 {
+.ui-fontSize-6 {
   font-size: 4em;
   text-transform: uppercase;
   line-height: 80%;
 }
 
-.ui-fontSize-5 {
+.ui-fontSize-7 {
+  font-size: 4.75em;
+  text-transform: uppercase;
+  line-height: 80%;
+}
+
+.ui-fontSize-8 {
   font-size: 8.375em;
   line-height: 80%;
   text-transform: uppercase;
 }
 
-.ui-fontSize-6 {
+.ui-fontSize-9 {
   font-size: 14.238em;
   line-height: 80%;
   text-transform: uppercase;
@@ -1253,6 +1264,7 @@ h6 {
 .icons {
   /*max-height: 50px;*/
   padding: 3em;
+  text-align: center;
 }
 
 .icons:nth-child(6) {
@@ -1322,6 +1334,10 @@ h6 {
 .button--primary:active {
   color: white;
   background: #666;
+}
+
+.button-container {
+  margin-top: 2em;
 }
 
 
